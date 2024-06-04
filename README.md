@@ -24,4 +24,15 @@ We used transfer learning to classify images in the datasets folder and compared
 Steps:
 1. Loaded training and validation sets using `image_dataset_from_directory`.
 2. Chose a base model from `keras.applications`.
-3. Applied data augmentation layers like `R
+3. Applied data augmentation layers like `RandomFlip` and `RandomRotation`.
+4. Created `keras.Input` for model input.
+5. Applied preprocessing of the base model to the data.
+6. Used the base model with preprocessed data.
+7. Added new layers to the model.
+8. Compiled the model using `compile` method and trained it with `fit` method.
+
+For more details, please refer to the specific code implementations provided in the previous responses.
+
+---
+This README summarizes the steps taken to implement transfer learning for image classification and create a neural network for predicting a target variable, as requested.
+
